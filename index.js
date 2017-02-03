@@ -5,6 +5,30 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ];
 
+
+
+
+const OlderCoaster = React.createClass({
+  render(){
+    return React.createElement('div', {className: "OlderCoaster"}, [
+      React.createElement('p', {}, "Two grannies having the time of their life!"),
+      React.createElement('p', {}, "Passengers:"),
+      React.createElement('ul', {}, [
+        React.createElement('li', {}, "Agnes"),
+        React.createElement('li', {}, "Muriel")
+      ]);
+
+    ]);
+  }
+})
+
+const InFrontOfYou = React.createClass({
+  render(){
+    return React.createElement('')
+  }
+})
+
+
 ReactDOM.render(
   React.createElement('div', {}, [
     React.createElement(OlderCoaster),
