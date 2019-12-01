@@ -6,7 +6,7 @@ const BUTCHER_PRODUCTS = [
   'Short ribs',
   'Beef shin',
   'Ribeye'
-];
+]
 
 export class OlderCoaster extends React.Component {
   render(){
