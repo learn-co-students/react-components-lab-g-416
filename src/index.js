@@ -8,7 +8,6 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ];
 
-// Define these exported classes
 export class OlderCoaster extends React.Component {
   render(){
     return(
