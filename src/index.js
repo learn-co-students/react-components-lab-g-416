@@ -32,18 +32,18 @@ export class InFrontOfYou extends React.Component {
 };
 export class ButcherShop extends React.Component {
   render() {
-    return<div className="butcher-shop">
-  <p>Hello! We have the following products for sale today:</p>
-  <ul>
-   <li> ${BUTCHER_PRODUCTS[0]}</li>
-   <li> ${BUTCHER_PRODUCTS[1]}</li>
-   <li> ${BUTCHER_PRODUCTS[2]}</li>
-  </ul>
-</div>
-
-      )
-    ]);
-  }};
+    return(
+      <div className="butcher-shop">
+        <p>Hello! We have the following products for sale today:</p>
+        <ul>
+           <li>{BUTCHER_PRODUCTS[0]}</li>
+           <li>{BUTCHER_PRODUCTS[1]}</li>
+           <li>{BUTCHER_PRODUCTS[2]}</li>
+           <li>{BUTCHER_PRODUCTS[3]}</li>
+        </ul>
+      </div>
+      )}
+    };
 
 ReactDOM.render(
   React.createElement('div', {}, [
